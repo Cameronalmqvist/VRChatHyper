@@ -1,0 +1,397 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Emissiveball
+  m_Shader: {fileID: -8512187303908658807, guid: b36109bcda611f9498611a60783d4d83,
+    type: 3}
+  m_ShaderKeywords: AL_MODE_NONE BAKERY_NONE BAKERY_SHNONLINEAR DETAILS_MODE_PACKED
+    GSAA MASK_MODE_ALBEDO REFLECTION_MODE_OFF SPECULAR_ON TESS_MODE_DISTANCEBASED
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ALMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BakedCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BakedNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 36a6b5f7eb3f4b4b9867affc51734894, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CRColorPalette:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CRMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DDetailsMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DDetailsNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DFG:
+        m_Texture: {fileID: 2800000, guid: f8ddbd1e1d2a4415a10b4d48daeba743, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalsMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlassBlurryMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RNM0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RNM1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RNM2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectivityMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexHeight:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - AL_MODE: 0
+    - BAKERY: 0
+    - DETAILS_MODE: 0
+    - MASK_MODE: 0
+    - REFLECTION_MODE: 0
+    - TESS_MODE: 0
+    - UI_ALPackedBlueHeader: 0
+    - UI_ALPackedGreenHeader: 0
+    - UI_ALPackedRedHeader: 0
+    - UI_AdvancedHeader: 0
+    - UI_AdvancedSettingsHeader: 1
+    - UI_AudioLink: 0
+    - UI_BakeryHeader: 0
+    - UI_ChannelSelector: 0
+    - UI_CloudsDocs: 0
+    - UI_ColorRandomisationDocs: 0
+    - UI_ColorRandomisationHeader: 1
+    - UI_ColorRandomisationNote: 0
+    - UI_DPlanarAxisSelector: 0
+    - UI_DetailAlbedoNote: 0
+    - UI_DetailSmoothNote: 0
+    - UI_DetailsDocs: 0
+    - UI_DetailsHeader: 0
+    - UI_DetailsMapNote: 0
+    - UI_DetailsMapNoteSeparate: 0
+    - UI_EmissionHeader: 0
+    - UI_FaderDocs: 0
+    - UI_FaderHeader: 1
+    - UI_FallbackNote: 0
+    - UI_ForceBoxProjectionNote: 0
+    - UI_GSAAHeader: 0
+    - UI_GSAANote: 0
+    - UI_GlassDocs: 0
+    - UI_GlassHeader: 1
+    - UI_IgnoreMaskNote: 0
+    - UI_InternalHeader: 1
+    - UI_InternalsHeader: 0
+    - UI_LTCGIDocs: 0
+    - UI_LTCGIDownload: 0
+    - UI_LTCGIHeader: 1
+    - UI_Level1Header: 0
+    - UI_Level2Header: 0
+    - UI_Level3Header: 0
+    - UI_LightmappingDocs: 0
+    - UI_LightmappingHeader: 1
+    - UI_MainHeader: 1
+    - UI_MaxDisplacementNote: 0
+    - UI_MetallicNote: 0
+    - UI_MetallicRemap: 0
+    - UI_NeonDocs: 0
+    - UI_NeonHeader: 0
+    - UI_NeonTubeHeader: 1
+    - UI_NormalsHeader: 0
+    - UI_OcclusionIndirectModeNote: 0
+    - UI_OcclusionIntegrateModeNote: 0
+    - UI_OutlineHeader: 1
+    - UI_ParallaxDocs: 0
+    - UI_ParallaxHeader: 0
+    - UI_PhongNote: 0
+    - UI_PlanarAxisSelector: 0
+    - UI_ReflectionsHeader: 1
+    - UI_RimLightHeader: 0
+    - UI_RimShadowHeader: 0
+    - UI_SmoothnessRemap: 0
+    - UI_SpecMapdNote: 0
+    - UI_SpecularHeader: 1
+    - UI_TessFactorNote: 0
+    - UI_TessNote: 0
+    - UI_TessSHNote: 0
+    - UI_TessellationHeader: 0
+    - UI_ToonDocs: 0
+    - UI_VertexHeightHeader: 0
+    - _ALBand: 0
+    - _ALGradientOnBlue: 0
+    - _ALGradientOnGreen: 0
+    - _ALGradientOnRed: 0
+    - _ALMapUVSet: 0
+    - _ALSmoothingLevel: 1
+    - _ALUVWidth: 128
+    - _AOChannel: 1
+    - _AlbedoChannel: 0
+    - _BakedSpecular: 0
+    - _BakeryEnabled: 0
+    - _BakerySHNonLinear: 1
+    - _Bicubic: 0
+    - _BumpScale: 1
+    - _CRColorBoost: 1
+    - _CRTintStrength: 0.5
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DAlbedoScale: 1
+    - _DDetailsMapRef1: 0
+    - _DDetailsMapRef2: 0
+    - _DIgnoreMask: 0
+    - _DMappingSpace: 0
+    - _DNormalFlipY: 0
+    - _DNormalScale: 1
+    - _DPlanarAxisX: 0
+    - _DPlanarAxisY: 2
+    - _DSmoothScale: 1
+    - _DUVChannel: 0
+    - _DepthTransp: 36
+    - _DetailAsTintMask: 0
+    - _DetailMaskChannel: 2
+    - _DetailNormalMapScale: 1
+    - _DetailNormalScale: 1
+    - _DetailNormalUVSet: 0
+    - _DetailNormalsUVSet: 0
+    - _DetailsOverlay: 0
+    - _DstBlend: 0
+    - _EmissionChannel: 0
+    - _EmissionEnabled: 0
+    - _EmissionScaleWithLight: 1
+    - _EmissionScaleWithLightSensitivity: 1
+    - _EmissionTintToDiffuse: 0
+    - _EnableGSAA: 1
+    - _EnableParallax: 0
+    - _ExtrusionMode: 0
+    - _FaderColumns: 10
+    - _FaderRemap: 0
+    - _FaderRemapMax: 0.95
+    - _FaderRemapMin: 0.15
+    - _FlickerFrequency: 44
+    - _FlickerSpeed: 63.4
+    - _FlickerStrengthMultiplier: 1.78
+    - _FlipBumpY: 0
+    - _FlipDetailNormalY: 0
+    - _ForceBoxPorject: 0
+    - _ForceBoxProjection: 0
+    - _GSAAThreshold: 0.1
+    - _GSAAVariance: 0.05
+    - _GlassAlphaMod: 0
+    - _GlassBlurry: 0
+    - _GlassBlurryAmount: 0.5
+    - _GlassRimPower: 0.25
+    - _GlassRimStrength: 1.38
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HeightBottom: 0.12
+    - _HeightRefPlane: 0.5
+    - _HeightScale: 0.006
+    - _HeightStepsMax: 16
+    - _HeightStepsMin: 8
+    - _HeightTop: 1
+    - _Hue: 0
+    - _IntegrateLTCGI: 0
+    - _L1NoiseScale: 1.7
+    - _L1NoiseStrength: 0.67
+    - _L2NoiseScale: 3.2
+    - _L2NoiseStrength: 0.7
+    - _L3NoiseScale: 35.51
+    - _L3NoiseStrength: 0.1
+    - _MainTexUVSet: 0
+    - _MappingSpace: 0
+    - _MatcapBlur: 0
+    - _MatcapTintToDiffuse: 0
+    - _MetalChannel: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NeonTubeCapDirection: 5
+    - _NeonTubeCapEnabled: 0
+    - _NeonTubeCapOffset: 0
+    - _NeonTubeCapSmoothness: 0.5
+    - _NeonTubePower: 5
+    - _NeonTubeSmoothing: 10
+    - _NonlinearSH: 0
+    - _OcclusionMode: 0
+    - _OcclusionStrength: 1
+    - _OnlyTop: 0
+    - _Outline: 0
+    - _OutlineAlbedoTint: 0
+    - _OutlineLightingMode: 0
+    - _OutlineWidth: 1
+    - _Parallax: 0.02
+    - _PlanarAxisX: 0
+    - _PlanarAxisY: 2
+    - _Progress: 0
+    - _ReflectionAnisotropy: 0
+    - _ReflectionBlendMode: 0
+    - _ReflectivityLevel: 0.5
+    - _RimAlbedoTint: 0
+    - _RimAttenuation: 1
+    - _RimEnvironmentTint: 0
+    - _RimIntensity: 0
+    - _RimLight: 0
+    - _RimRange: 0.7
+    - _RimShadow: 0
+    - _RimSharpness: 0.1
+    - _RimThreshold: 0.1
+    - _RoughnessMode: 0
+    - _Saturation: 0
+    - _ShadowRimAlbedoTint: 0
+    - _ShadowRimRange: 0.7
+    - _ShadowRimSharpness: 0.3
+    - _ShadowRimThreshold: 0.1
+    - _ShadowSharpness: 0.5
+    - _SmoothChannel: 3
+    - _Smoothness: 0.545
+    - _SmoothnessTextureChannel: 0
+    - _SpecOcclusion: 1
+    - _SpecularAlbedoTint: 1
+    - _SpecularAnisotropy: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0
+    - _SpecularMapUVSet: 0
+    - _SpecularOn: 1
+    - _SpecularRoughness: 0
+    - _SpecularRoughnessMod: 1
+    - _SpecularSharpness: 0
+    - _SrcBlend: 1
+    - _TessEdgeLength: 80
+    - _TessFactor: 3
+    - _TessMaxDisplacement: 0.1
+    - _TessMaxDist: 20
+    - _TessMinDist: 3
+    - _TessPhong: 0
+    - _TintByVertexColor: 0
+    - _UVSec: 0
+    - _Value: 0
+    - _VertexHeightAmount: 0
+    - _VertexHeightOffset: 0.5
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _ALEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ALPackedBlueColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ALPackedGreenColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ALPackedRedColor: {r: 0, g: 0, b: 0, a: 0}
+    - _CRAlbedoMaskContrast: {r: 0, g: 1, b: 0, a: 1}
+    - _Color: {r: 1, g: 0.68627447, b: 0, a: 1}
+    - _ColorBottom: {r: 0.56804025, g: 0.5980207, b: 0.6509434, a: 1}
+    - _ColorTop: {r: 0.8066038, g: 0.9495488, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 0.3397382, b: 0, a: 1}
+    - _ExtrusionDirection: {r: 0, g: 1, b: 0, a: 1}
+    - _FlickerStrength: {r: 0.85, g: 1, b: 0, a: 1}
+    - _GlassRimSmoothing: {r: 0, g: 0.65, b: 0, a: 0}
+    - _GlassRimTint: {r: 1, g: 1, b: 1, a: 1}
+    - _L1NoiseDirection: {r: -23.98, g: 0, b: 24.37, a: 0}
+    - _L2NoiseDirection: {r: -40, g: 0, b: -10, a: 0}
+    - _L3NoiseDirection: {r: 80, g: 0, b: 0, a: 0}
+    - _MetallicRemap: {r: 0, g: 1, b: 0, a: 1}
+    - _NeonColor: {r: 1, g: 0.34117648, b: 0, a: 1}
+    - _NeonTubeCapColor: {r: 0.29999998, g: 0.29999998, b: 0.29999998, a: 1}
+    - _NeonTubeColor: {r: 1, g: 0.6746811, b: 0, a: 1}
+    - _OutlineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimTint: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowRimTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SmoothnessRemap: {r: 0, g: 1, b: 0, a: 1}
