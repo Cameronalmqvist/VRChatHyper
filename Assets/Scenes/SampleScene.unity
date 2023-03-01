@@ -5272,7 +5272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactTextPlacement: {fileID: 0}
-  interactText: Toggle
+  interactText: Song 1
   interactTextGO: {fileID: 0}
   proximity: 2
   SynchronizePosition: 0
@@ -7882,7 +7882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactTextPlacement: {fileID: 0}
-  interactText: Change Music
+  interactText: Song 2
   interactTextGO: {fileID: 0}
   proximity: 2
   SynchronizePosition: 0
