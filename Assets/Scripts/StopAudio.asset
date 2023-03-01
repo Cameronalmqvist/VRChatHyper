@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f11136daadff0b44ac2278a314682ab, type: 3}
+  m_Name: StopAudio
+  m_EditorClassIdentifier: 
+  serializedUdonProgramAsset: {fileID: 11400000, guid: 435c472270a5631449f8484920798e53,
+    type: 2}
+  udonAssembly: ".data_start\r\n\r\n    .export Findmusica\r\n    \r\n    __instance_0:
+    %UnityEngineAudioSource, null\r\n    Findmusica: %UnityEngineAudioSource, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    .export _interact\r\n    \r\n    _interact:\r\n    \r\n        PUSH, Findmusica\r\n       
+    PUSH, __instance_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        EXTERN,
+    \"UnityEngineAudioSource.__Stop__SystemVoid\"\r\n        JUMP, 0xFFFFFFFC\r\n   
+    \r\n\r\n.code_end\r\n"
+  assemblyError: 
+  graphData:
+    name: 
+    description: 
+    nodes:
+    - fullName: Variable_UnityEngineAudioSource
+      uid: 2a513ba8-32fb-4e41-9c8f-f402e363368c
+      position: {x: 0, y: 0}
+      nodeUIDs:
+      - 
+      - 
+      - 
+      - 
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Findmusica
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|True
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089|False
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
+    - fullName: Get_Variable
+      uid: 70c2247d-c172-420f-84b6-c34399c6321d
+      position: {x: 471, y: 467}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|2a513ba8-32fb-4e41-9c8f-f402e363368c
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    - fullName: Event_Interact
+      uid: bccdf4be-ff60-4aaa-a622-339f5c303093
+      position: {x: 618, y: 291}
+      nodeUIDs: []
+      flowUIDs:
+      - 1c9b8cb5-02c8-4152-8e9f-a3bd85fae747
+      nodeValues: []
+    - fullName: UnityEngineAudioSource.__Stop__SystemVoid
+      uid: 1c9b8cb5-02c8-4152-8e9f-a3bd85fae747
+      position: {x: 809, y: 418}
+      nodeUIDs:
+      - 70c2247d-c172-420f-84b6-c34399c6321d|0
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+    updateOrder: 0
+  graphElementData: []
+  version: 1.0.0
+  showAssembly: 0
