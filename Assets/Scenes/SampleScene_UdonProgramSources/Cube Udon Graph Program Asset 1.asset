@@ -75,7 +75,7 @@ MonoBehaviour:
         stringValue: 
     - fullName: UnityEngineAnimator.__SetBool__SystemString_SystemBoolean__SystemVoid
       uid: c52906f1-42c3-486d-8a9e-5980c4c96def
-      position: {x: 623, y: 234}
+      position: {x: 800.1001, y: 245.50003}
       nodeUIDs:
       - 1156a1f6-000b-4997-82b7-ba9534c113d9|0
       - 
