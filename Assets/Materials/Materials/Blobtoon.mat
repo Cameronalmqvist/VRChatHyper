@@ -8,9 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Blobtoon
-  m_Shader: {fileID: -8512187303908658807, guid: bb1fc5fc14b648debb2f566068d58f43,
-    type: 3}
-  m_ShaderKeywords: BAKERY_NONE BAKERY_SHNONLINEAR DETAILS_MODE_PACKED GSAA _EMISSION
+  m_Shader: {fileID: 4800000, guid: 4c509da21555fa3458e446716b2f9936, type: 3}
+  m_ShaderKeywords: _EMISSION _PANO_ON _RIMLIGHT_ADD
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -21,6 +20,10 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubemapOverlay:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -64,7 +67,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -87,6 +98,38 @@ Material:
     - _RNM2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 3281e7d3927047d42bdf0e9d5d4501ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TileOverlay:
+        m_Texture: {fileID: 2800000, guid: 6c0d8375ff9963c439f4f4993d9300b5, type: 3}
+        m_Scale: {x: 8, y: 8}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - BAKERY: 0
@@ -114,7 +157,11 @@ Material:
     - _BakeryEnabled: 0
     - _BakerySHNonLinear: 1
     - _Bicubic: 0
+    - _BillboardStaticLight: 0
     - _BumpScale: 1
+    - _CrossfadeTileCubemap: 0.5
+    - _CubemapEnabled: 0
+    - _Cull: 2
     - _CullMode: 2
     - _Cutoff: 0.5
     - _DAlbedoScale: 1
@@ -135,6 +182,8 @@ Material:
     - _EmissionEnabled: 1
     - _EnableGSAA: 1
     - _EnableParallax: 0
+    - _Exposure: 0.7
+    - _ExposureContrast: 3
     - _FlipBumpY: 0
     - _ForceBoxProjection: 0
     - _GSAAThreshold: 0.1
@@ -146,16 +195,36 @@ Material:
     - _HeightScale: 0.006
     - _HeightStepsMax: 16
     - _HeightStepsMin: 8
+    - _Intensity: 0.8
+    - _IntensityB: 0.8
+    - _IntensityG: 0.8
+    - _IntensityR: 0.8
+    - _LightingMode: 0
     - _MappingSpace: 0
+    - _MatCapMode: 0
+    - _MatCapStrength: 1
     - _MetalChannel: 0
     - _Metallic: 0
+    - _MetallicMode: 0
     - _Mode: 0
     - _NonlinearSH: 0
     - _OcclusionStrength: 1
+    - _OverlayMode: 0
+    - _OverlayStrength: 0.27
+    - _OverrideWorldLight: 0
+    - _PanoEnabled: 1
     - _Parallax: 0.02
     - _PlanarAxisX: 0
     - _PlanarAxisY: 2
+    - _ReceiveShadows: 0
+    - _RimInvert: 0
+    - _RimLightMode: 1
+    - _RimWidth: 0.512
     - _RoughnessMode: 0
+    - _Saturation: 0.65
+    - _SaturationB: 0.65
+    - _SaturationG: 0.65
+    - _SaturationR: 0.65
     - _SmoothChannel: 3
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
@@ -163,11 +232,24 @@ Material:
     - _SpecularHighlights: 1
     - _SpecularRoughnessMod: 1
     - _SrcBlend: 1
+    - _TileSpeedX: 0.04
+    - _TileSpeedY: 0.03
+    - _ToonContrast: 0.25
+    - _ToonContrastB: 0.25
+    - _ToonContrastG: 0.25
+    - _ToonContrastR: 0.25
+    - _ToonRampDimming: 0
     - _UVSec: 0
+    - _WorldLightIntensity: 1
     - _ZTest: 4
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _CubemapRotation: {r: 0, g: 0, b: 0, a: 0}
+    - _CubemapRotationSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 1, g: 0.030630048, b: 0, a: 1}
     - _MetallicRemap: {r: 0, g: 1, b: 0, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 0.4}
     - _SmoothnessRemap: {r: 0, g: 1, b: 0, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
+    - _StaticToonLight: {r: 0, g: 2.5, b: 0, a: 0}
