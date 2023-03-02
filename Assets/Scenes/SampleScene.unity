@@ -3681,7 +3681,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.54365414, b: 0, a: 1}
-  m_Intensity: 1.46
+  m_Intensity: 0.76
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3720,7 +3720,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.61
@@ -8401,7 +8401,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -13395,7 +13395,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.54365414, b: 0, a: 1}
-  m_Intensity: 0.77
+  m_Intensity: 0.36
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -13434,7 +13434,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.61
@@ -13534,7 +13534,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 86e52683dc683e94a806f76695bfed91, type: 2}
+      objectReference: {fileID: 2100000, guid: d3018d5406bd7c440a2fde883f5fa232, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c16c89cb8f103ec4983d7151d8d042d4, type: 3}
 --- !u!1001 &1342319629
@@ -16714,7 +16714,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 15bb945533299724ea526803a06fb18d, type: 2}
+      objectReference: {fileID: 2100000, guid: 3680d1fd01af924428d750633d3b046d, type: 2}
     - target: {fileID: -7055603969658638656, guid: cdb856f41da2c8d43ba4843a15c4f9e3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16769,12 +16769,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 15bb945533299724ea526803a06fb18d, type: 2}
+      objectReference: {fileID: 2100000, guid: a9af94f744b0c61408adf9cf61ff1443, type: 2}
     - target: {fileID: -4281409699884209771, guid: cdb856f41da2c8d43ba4843a15c4f9e3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f446c6877ecb29f48aa555ea1ec537c0, type: 2}
+    - target: {fileID: -3254572724746774466, guid: cdb856f41da2c8d43ba4843a15c4f9e3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.005495
+      objectReference: {fileID: 0}
     - target: {fileID: -2452450420779657081, guid: cdb856f41da2c8d43ba4843a15c4f9e3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19332,7 +19337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactTextPlacement: {fileID: 0}
-  interactText: Use
+  interactText: Open
   interactTextGO: {fileID: 0}
   proximity: 2
   SynchronizePosition: 0
@@ -21564,7 +21569,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -23445,6 +23450,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 215e24aaf5128ea4782d3bd2419225f5, type: 3}
+--- !u!1 &6341976248954359987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9202583899173637044, guid: 215e24aaf5128ea4782d3bd2419225f5,
+    type: 3}
+  m_PrefabInstance: {fileID: 6341976248954359986}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6341976248954359988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6341976248954359987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.010000007, y: 0.009999999, z: 0.010000007}
+  m_Center: {x: 0.000000007450581, y: 9.313226e-10, z: -0.00000023841858}
 --- !u!4 &6361403368315912431
 Transform:
   m_ObjectHideFlags: 0

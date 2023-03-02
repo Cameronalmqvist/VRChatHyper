@@ -98,7 +98,7 @@ Material:
     - UI_AudioLink: 0
     - UI_EmissionHeader: 0
     - UI_FallbackNote: 0
-    - UI_MainHeader: 0
+    - UI_MainHeader: 1
     - UI_MetallicNote: 0
     - UI_NormalsHeader: 0
     - UI_OcclusionIndirectModeNote: 0
@@ -191,7 +191,7 @@ Material:
     - _ALPackedGreenColor: {r: 0, g: 0, b: 0, a: 0}
     - _ALPackedRedColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MetallicRemap: {r: 0, g: 1, b: 0, a: 1}
     - _OutlineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
