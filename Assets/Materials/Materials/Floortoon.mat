@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Floortoon
+  m_Shader: {fileID: -8512187303908658807, guid: f29b375ac6ad8e84f9a5095e5857e957,
+    type: 3}
+  m_ShaderKeywords: AL_MODE_NONE REFLECTION_MODE_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ALMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BakedCubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalsMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectivityMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - AL_MODE: 0
+    - REFLECTION_MODE: 0
+    - UI_ALPackedBlueHeader: 0
+    - UI_ALPackedGreenHeader: 0
+    - UI_ALPackedRedHeader: 0
+    - UI_AdvancedSettingsHeader: 1
+    - UI_AudioLink: 1
+    - UI_EmissionHeader: 1
+    - UI_FallbackNote: 0
+    - UI_MainHeader: 1
+    - UI_MetallicNote: 0
+    - UI_NormalsHeader: 1
+    - UI_OcclusionIndirectModeNote: 0
+    - UI_OcclusionIntegrateModeNote: 0
+    - UI_OutlineHeader: 1
+    - UI_ReflectionsHeader: 1
+    - UI_RimLightHeader: 1
+    - UI_RimShadowHeader: 0
+    - UI_SpecMapdNote: 0
+    - UI_SpecularHeader: 1
+    - UI_ToonDocs: 0
+    - _ALBand: 0
+    - _ALGradientOnBlue: 0
+    - _ALGradientOnGreen: 0
+    - _ALGradientOnRed: 0
+    - _ALMapUVSet: 0
+    - _ALSmoothingLevel: 1
+    - _ALUVWidth: 128
+    - _BumpScale: 1
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DetailNormalScale: 1
+    - _DetailNormalUVSet: 0
+    - _DetailNormalsUVSet: 0
+    - _DstBlend: 0
+    - _EmissionScaleWithLight: 0
+    - _EmissionScaleWithLightSensitivity: 1
+    - _EmissionTintToDiffuse: 0
+    - _FlipBumpY: 0
+    - _FlipDetailNormalY: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Hue: 0
+    - _MainTexUVSet: 0
+    - _MatcapBlur: 0
+    - _MatcapTintToDiffuse: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionMode: 0
+    - _OcclusionStrength: 1
+    - _Outline: 0
+    - _OutlineAlbedoTint: 0
+    - _OutlineLightingMode: 0
+    - _OutlineWidth: 1
+    - _Parallax: 0.02
+    - _ReflectionAnisotropy: 0
+    - _ReflectionBlendMode: 0
+    - _ReflectivityLevel: 0.5
+    - _RimAlbedoTint: 0
+    - _RimAttenuation: 1
+    - _RimEnvironmentTint: 0
+    - _RimIntensity: 0
+    - _RimLight: 0
+    - _RimRange: 0.7
+    - _RimShadow: 0
+    - _RimSharpness: 0.1
+    - _RimThreshold: 0.1
+    - _RoughnessMode: 0
+    - _Saturation: 0
+    - _ShadowRimAlbedoTint: 0
+    - _ShadowRimRange: 0.7
+    - _ShadowRimSharpness: 0.3
+    - _ShadowRimThreshold: 0.1
+    - _ShadowSharpness: 0.5
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularAlbedoTint: 1
+    - _SpecularAnisotropy: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 0
+    - _SpecularMapUVSet: 0
+    - _SpecularOn: 0
+    - _SpecularRoughness: 0
+    - _SpecularSharpness: 0
+    - _SrcBlend: 1
+    - _TintByVertexColor: 0
+    - _UVSec: 0
+    - _Value: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _ALEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ALPackedBlueColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ALPackedGreenColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ALPackedRedColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MetallicRemap: {r: 0, g: 1, b: 0, a: 1}
+    - _OutlineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimTint: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowRimTint: {r: 1, g: 1, b: 1, a: 1}
+    - _SmoothnessRemap: {r: 0, g: 1, b: 0, a: 1}
