@@ -111,7 +111,7 @@ Material:
     - UI_AudioLink: 0
     - UI_EmissionHeader: 0
     - UI_FallbackNote: 0
-    - UI_MainHeader: 1
+    - UI_MainHeader: 0
     - UI_MetallicNote: 0
     - UI_NormalsHeader: 0
     - UI_OcclusionIndirectModeNote: 0
