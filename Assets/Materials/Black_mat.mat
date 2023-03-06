@@ -104,7 +104,7 @@ Material:
     - UI_OcclusionIndirectModeNote: 0
     - UI_OcclusionIntegrateModeNote: 0
     - UI_OutlineHeader: 0
-    - UI_ReflectionsHeader: 0
+    - UI_ReflectionsHeader: 1
     - UI_RimLightHeader: 0
     - UI_RimShadowHeader: 0
     - UI_SpecMapdNote: 0

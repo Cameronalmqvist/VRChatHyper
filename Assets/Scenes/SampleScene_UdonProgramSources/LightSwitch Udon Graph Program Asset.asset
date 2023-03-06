@@ -108,7 +108,7 @@ MonoBehaviour:
           PublicKeyToken=b77a5c561934e089|False
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid
       uid: a5ce7a5e-62f9-4d55-96ae-5772af6c4d8a
-      position: {x: 707, y: -88.13045}
+      position: {x: 524, y: -4}
       nodeUIDs:
       - 
       - 

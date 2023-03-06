@@ -57,7 +57,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Event_Interact
       uid: 41966bac-5c8b-4288-882a-36fb0ea23a0f
-      position: {x: 362, y: 149}
+      position: {x: 256, y: 39}
       nodeUIDs: []
       flowUIDs:
       - c52906f1-42c3-486d-8a9e-5980c4c96def
@@ -112,6 +112,9 @@ MonoBehaviour:
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089|False
     updateOrder: 0
-  graphElementData: []
+  graphElementData:
+  - type: 2
+    uid: b09c9a95-bd1b-415f-95a0-c183c848b768
+    jsonData: '{"uid":"b09c9a95-bd1b-415f-95a0-c183c848b768","layout":{"serializedVersion":"2","x":553.0,"y":106.0,"width":128.0,"height":128.0},"containedElements":["41966bac-5c8b-4288-882a-36fb0ea23a0f"],"title":"Group","layer":-1,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":1.0}}'
   version: 1.0.0
   showAssembly: 0
