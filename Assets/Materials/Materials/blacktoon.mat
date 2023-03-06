@@ -105,7 +105,7 @@ Material:
     - UI_InternalHeader: 0
     - UI_LightmappingDocs: 0
     - UI_LightmappingHeader: 1
-    - UI_MainHeader: 1
+    - UI_MainHeader: 0
     - UI_ParallaxDocs: 0
     - UI_ParallaxHeader: 0
     - _AOChannel: 1

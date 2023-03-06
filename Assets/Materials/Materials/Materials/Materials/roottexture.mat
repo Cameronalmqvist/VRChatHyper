@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: roottexture
-  m_Shader: {fileID: -8512187303908658807, guid: f29b375ac6ad8e84f9a5095e5857e957,
-    type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: AL_MODE_NONE REFLECTION_MODE_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -29,6 +28,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -65,6 +72,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -111,25 +122,33 @@ Material:
     - _ALUVWidth: 128
     - _BumpScale: 1
     - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
     - _DetailNormalScale: 1
     - _DetailNormalUVSet: 0
     - _DetailNormalsUVSet: 0
+    - _DstBlend: 0
     - _EmissionScaleWithLight: 0
     - _EmissionScaleWithLightSensitivity: 1
     - _EmissionTintToDiffuse: 0
     - _FlipBumpY: 0
     - _FlipDetailNormalY: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
     - _Hue: 0
     - _MainTexUVSet: 0
     - _MatcapBlur: 0
     - _MatcapTintToDiffuse: 0
     - _Metallic: 0
+    - _Mode: 0
     - _OcclusionMode: 0
     - _OcclusionStrength: 0
     - _Outline: 0
     - _OutlineAlbedoTint: 0
     - _OutlineLightingMode: 0
     - _OutlineWidth: 1
+    - _Parallax: 0.02
     - _ReflectionAnisotropy: 0
     - _ReflectionBlendMode: 0
     - _ReflectivityLevel: 0.5
@@ -150,14 +169,18 @@ Material:
     - _ShadowRimThreshold: 0.1
     - _ShadowSharpness: 0.5
     - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
     - _SpecularAlbedoTint: 1
     - _SpecularAnisotropy: 0
+    - _SpecularHighlights: 1
     - _SpecularIntensity: 0
     - _SpecularMapUVSet: 0
     - _SpecularOn: 0
     - _SpecularRoughness: 0
     - _SpecularSharpness: 0
+    - _SrcBlend: 1
     - _TintByVertexColor: 0
+    - _UVSec: 0
     - _Value: 0
     - _ZTest: 4
     - _ZWrite: 1
